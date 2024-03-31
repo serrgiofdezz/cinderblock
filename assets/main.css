@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    word-wrap: break-word;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    margin: 5%;
+  }
+  
+  h1, h2, h3, a, p {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #1C1E21;
+  }
+  
+  @media screen and (min-width: 1150px) {
+  }
+  
+  /*** Dark Mode ***/
+  @media (prefers-color-scheme: dark) {
+     body {
+       background-color: #1C1E21;
+     }
+  
+     h1,
+     h2,
+     h3,
+     a,
+     p {
+       color: #FFFFFF;
+     }
+   }
